@@ -1,4 +1,4 @@
-#include "main.h"
+include "main.h"
 
 /**
  * main - check the code
@@ -14,6 +14,7 @@ while (*(dest + count) != '\0')
 {
 count++;
 }
+
 while (count2 >= 0)
 {
 *(dest + count) = *(src + count2);
