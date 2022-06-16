@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * main - check the code
@@ -6,7 +6,7 @@ include "main.h"
  * Return: Always 0.
  */
 
-char char *_strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 int count = 0, count2 = 0;
 
@@ -14,7 +14,6 @@ while (*(dest + count) != '\0')
 {
 count++;
 }
-
 while (count2 >= 0)
 {
 *(dest + count) = *(src + count2);
