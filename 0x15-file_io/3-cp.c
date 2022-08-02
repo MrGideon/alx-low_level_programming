@@ -4,6 +4,7 @@
 #include <fcntl.h>
 #include <stdio.h>
 
+#define BUFSIZE 256
 /**
 * file1fail - Print error message if can't read file
 * @file: Name of the file that can't be read
